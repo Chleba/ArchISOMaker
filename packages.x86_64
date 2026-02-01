@@ -2,13 +2,11 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
-b43-fwcutter
+autossh
 base
 bcachefs-tools
 bind
 bolt
-brltty
-broadcom-wl
 btrfs-progs
 clonezilla
 cloud-init
@@ -24,12 +22,10 @@ dosfstools
 e2fsprogs
 edk2-shell
 efibootmgr
-espeakup
 ethtool
 exfatprogs
 f2fs-tools
 fatresize
-foot-terminfo
 fsarchiver
 gpart
 gpm
@@ -43,7 +39,6 @@ irssi
 iw
 iwd
 jfsutils
-kitty-terminfo
 ldns
 less
 lftp
@@ -53,8 +48,6 @@ linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
-livecd-sounds
-lsscsi
 lvm2
 lynx
 man-db
@@ -72,10 +65,13 @@ mtools
 nano
 nbd
 ndisc6
+networkmanager
 nfs-utils
 nilfs-utils
 nmap
 ntfs-3g
+nvidia-open
+nvidia-utils
 nvme-cli
 open-iscsi
 open-vm-tools
@@ -94,7 +90,6 @@ qemu-guest-agent
 refind
 reflector
 rsync
-rxvt-unicode-terminfo
 screen
 sdparm
 sequoia-sq
@@ -126,9 +121,3 @@ xdg-utils
 xfsprogs
 xl2tpd
 zsh
-sway
-swaybg
-foot
-wmenu
-gparted
-networkmanager

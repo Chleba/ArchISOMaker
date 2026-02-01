@@ -1,0 +1,2 @@
+chdai ALL=(ALL) ALL
+chdai ALL=(ALL) NOPASSWD: /usr/bin/mount -t cifs //* /mnt/win_share, /usr/bin/mount /mnt/win_share
