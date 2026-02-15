@@ -1,0 +1,14 @@
+[Unit]
+Description=AutoSSH Reverse Tunnel Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=chdata
+ExecStart=/usr/local/bin/reversessh.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -121,3 +121,6 @@ xdg-utils
 xfsprogs
 xl2tpd
 zsh
+libreoffice-fresh
+pandoc
+ollama
