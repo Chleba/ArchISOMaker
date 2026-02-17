@@ -1,0 +1,15 @@
+[Unit]
+Description=Register HW device after first boot to CHD Exctatror
+After=network-online.target setup-hw-id.service
+Wants=network-online.target
+
+ConditionPathExists=!/home/chdata/.config/.setup_done
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/local/bin/first-boot.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

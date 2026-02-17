@@ -26,4 +26,6 @@ file_permissions=(
   ["/root/install.sh"]="0:0:755"
   ["/root/ArchScripts/setup.sh"]="0:0:755"
   ["/usr/local/bin/reversessh.sh"]="0:0:755"
+  ["/usr/local/bin/setup-hwid.sh"]="0:0:755"
+  ["/usr/local/bin/first-boot.sh"]="0:0:755"
 )
